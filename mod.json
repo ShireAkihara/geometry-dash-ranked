@@ -1,0 +1,22 @@
+{
+  "geode": "5.10.1",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081"
+  },
+  "version": "v0.1.0",
+  "id": "shireakihara.gd-ranked",
+  "name": "GD Ranked",
+  "developer": "ShireAkihara",
+  "description": "1v1 ranked mode with MMR, leaderboard, AI match feedback and a fully replaced main menu.",
+  "dependencies": [
+    { "id": "dankmeme.globed2", "version": ">=1.0.0", "importance": "suggested" }
+  ],
+  "settings": {
+    "server-url": {
+      "type": "string",
+      "name": "Ranked server URL",
+      "default": "https://your-server.example.com"
+    }
+  }
+}
